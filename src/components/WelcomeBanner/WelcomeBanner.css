@@ -1,0 +1,23 @@
+div .WelcomeBanner {
+  /* style this div to start at 1/3 of the height of the page, it will contain the title and tagline for a landing page*/
+  margin-top: 30%;
+  margin-left: 5%;
+  word-wrap: break-word;
+}
+div .WelcomeBanner h1 {
+  font-weight: 900;
+}
+div .WelcomeBanner span {
+  font-style: italic;
+}
+div .MuiTypography-overline {
+  /* style the overline to be a smaller font size */
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  div .WelcomeBanner h1 {
+    /* style this div to start at 1/3 of the height of the page, it will contain the title and tagline for a landing page*/
+    font-size: 4rem;
+  }
+}
