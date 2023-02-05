@@ -4,12 +4,11 @@ import { WelcomeBanner } from "../WelcomeBanner";
 import { PictureBanner } from "../PictureBanner";
 import { NavBar } from "../NavBar";
 import "./Home.css";
-import { color } from "@mui/system";
 
 function Home() {
   return (
-    <section>
-      <Grid container spacing={0} className="homeElement">
+    <section className="homeElement">
+      <Grid container spacing={0}>
         <Grid md={6}>
           <Grid md={12}>
             <NavBar />
