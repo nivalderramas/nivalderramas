@@ -1,22 +1,46 @@
 import React from "react";
 import { Box, Container, IconButton, Grid, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
+import Image from "mui-image";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-
 import "./About.css";
-import { AlignHorizontalCenter } from "@mui/icons-material";
 
 function About() {
   return (
     <section className="about">
       <Container>
-        <Grid container spacing={0} className="centerText">
-          <Grid md={6}>
-            <Typography variant="h2">Who Am I?</Typography>
+        <Grid container spacing={10} alignItems="center">
+          <Grid
+            item
+            md={6}
+            display="flex"
+            justifyContent="right"
+            order={{ xs: 2, md: 1 }}
+          >
+            <Image
+              src="img/competitivePhoto.jpg"
+              height="60%"
+              width="60%"
+              fit="contain"
+              duration={300}
+              easing="cubic-bezier(0.7, 0, 0.6, 1)"
+              showLoading={false}
+              errorIcon={true}
+              shift={"right"}
+              distance="100px"
+              shiftDuration={900}
+              bgColor="inherit"
+              sx={{ borderRadius: "0.9%" }}
+            />
           </Grid>
-          <Grid md={6}>
+          <Grid
+            item
+            md={6}
+            order={{ xs: 1, md: 2 }}
+            sx={{ textAlign: "justify" }}
+          >
+            <Typography variant="h2">Who Am I?</Typography>
             <Typography variant="h5">
               I'm Nicolás Valderrama, a Systems Engineering student at the
               National University of Colombia and a self-taught software
@@ -30,17 +54,6 @@ function About() {
             </Typography>
           </Grid>
         </Grid>
-        <Box sx={{ display: "block", textAlign: "center", paddingTop: "2rem" }}>
-          <a href="https://www.instagram.com/nivalderramas/">
-            <InstagramIcon sx={{ fontSize: 70 }} />
-          </a>
-          <a href="https://www.github.com/nivalderramas/">
-            <GitHubIcon sx={{ fontSize: 70 }} />
-          </a>
-          <a href="https://www.linkedin.com/in/nivalderramas/">
-            <LinkedInIcon sx={{ fontSize: 70 }} />
-          </a>
-        </Box>
       </Container>
     </section>
   );
