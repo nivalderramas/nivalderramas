@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
+import { Divider } from "@mui/material";
 import { WelcomeBanner } from "../WelcomeBanner";
 import { PictureBanner } from "../PictureBanner";
 import { NavBar } from "../NavBar";

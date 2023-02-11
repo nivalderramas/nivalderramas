@@ -1,4 +1,20 @@
 .homeElement {
-  background-color: #22252c;
   color: white;
+  background: rgb(34, 37, 44);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 37, 44, 1) 65%,
+    rgba(37, 50, 102, 1) 100%
+  );
+}
+
+.mainTitle {
+  background: -webkit-linear-gradient(
+    340deg,
+    rgba(81, 113, 230, 1) 15%,
+    rgba(133, 100, 197, 1) 100%
+  );
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
