@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nivalderramas/static/css/main.ab2d5260.css",
+    "main.js": "/nivalderramas/static/js/main.5b2580ce.js",
+    "static/js/787.685d50ad.chunk.js": "/nivalderramas/static/js/787.685d50ad.chunk.js",
+    "index.html": "/nivalderramas/index.html",
+    "main.ab2d5260.css.map": "/nivalderramas/static/css/main.ab2d5260.css.map",
+    "main.5b2580ce.js.map": "/nivalderramas/static/js/main.5b2580ce.js.map",
+    "787.685d50ad.chunk.js.map": "/nivalderramas/static/js/787.685d50ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab2d5260.css",
+    "static/js/main.5b2580ce.js"
+  ]
+}
