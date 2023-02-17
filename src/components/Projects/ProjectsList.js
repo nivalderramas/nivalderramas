@@ -71,7 +71,7 @@ function ProjectsList() {
 
 const itemData = [
   {
-    img: "nivalderramas/img/projects/3DTetris.png",
+    img: "/img/projects/3DTetris.png",
     title: "3DTetris",
     description:
       "Enter the ultimate Tetris experience with my custom 3D version, showcasing advanced shaders and WebGL technology. Featuring intricate geometric shapes that fit seamlessly into each other, strategic gameplay mechanics, and cutting-edge coding techniques, this project highlights my extensive knowledge of 3D graphics, web development, and WebGL programming. Experience my innate creativity and talent to invent new ideas, resulting in a unique and captivating gameplay experience that will keep you coming back for more.",
