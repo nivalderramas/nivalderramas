@@ -1,5 +1,6 @@
 {
   "name": "nivalderramas",
+  "homepage": "https://nivalderramas.github.io/nivalderramas",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +47,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "homepage": "https://nivalderramas.github.io/nivalderramas"
+  }
 }

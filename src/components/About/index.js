@@ -18,7 +18,7 @@ function About() {
               order={{ xs: 2, md: 1 }}
             >
               <Image
-                src="./nivalderramas/img/competitivePhoto.jpg"
+                src="/img/competitivePhoto.jpg"
                 height="60%"
                 width="60%"
                 fit="contain"
