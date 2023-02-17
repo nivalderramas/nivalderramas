@@ -5,7 +5,7 @@ function PictureBanner() {
   return (
     <div>
       <Image
-        src="img/portrait2.png"
+        src="nivalderramas/img/portrait2.png"
         height="100%"
         width="100%"
         fit="cover"
