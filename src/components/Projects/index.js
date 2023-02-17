@@ -6,8 +6,8 @@ import "./Projects.css";
 function Projects() {
   return (
     <section className="projects">
+      <div className="workSectionTitle">Projects</div>
       <div>
-        <Typography variant="h3">Checkout my work</Typography>
         <ProjectsList />
       </div>
     </section>

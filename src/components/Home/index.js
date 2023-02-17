@@ -11,9 +11,7 @@ function Home() {
     <section className="homeElement">
       <Grid container spacing={0}>
         <Grid md={6}>
-          <Grid md={12}>
-            <NavBar />
-          </Grid>
+          <Grid md={12}>{/*<NavBar />*/}</Grid>
           <WelcomeBanner />
         </Grid>
         <Grid md={6}>

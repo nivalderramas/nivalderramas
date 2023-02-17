@@ -1,15 +1,11 @@
 import React from "react";
 import { Container, Divider, Grid, Typography } from "@mui/material";
 import Image from "mui-image";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./About.css";
 
 function About() {
   return (
     <>
-      <Divider>About</Divider>
       <section className="about">
         <Divider />
         <Container>
@@ -43,7 +39,7 @@ function About() {
               order={{ xs: 1, md: 2 }}
               sx={{ textAlign: "justify" }}
             >
-              <Typography variant="h2">Who Am I?</Typography>
+              <div className="aboutSectionTitle">About</div>
               <Typography variant="h5">
                 I'm Nicolás Valderrama, a Systems Engineering student at the
                 National University of Colombia and a self-taught software

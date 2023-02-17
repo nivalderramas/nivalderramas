@@ -1,4 +1,4 @@
-.about {
+.experience {
   align-items: center;
   color: white;
   padding: 3% 0;
@@ -9,7 +9,7 @@
   margin-top: 30rem;
 }
 
-.aboutSectionTitle {
+.experienceSectionTitle {
   position: absolute;
   top: -30rem;
   left: 0vw;
