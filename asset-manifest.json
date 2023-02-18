@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://nivalderramas.github.io/nivalderramas/static/css/main.ab2d5260.css",
-    "main.js": "https://nivalderramas.github.io/nivalderramas/static/js/main.c4dd65cd.js",
+    "main.js": "https://nivalderramas.github.io/nivalderramas/static/js/main.061bacbe.js",
     "static/js/787.685d50ad.chunk.js": "https://nivalderramas.github.io/nivalderramas/static/js/787.685d50ad.chunk.js",
     "index.html": "https://nivalderramas.github.io/nivalderramas/index.html",
     "main.ab2d5260.css.map": "https://nivalderramas.github.io/nivalderramas/static/css/main.ab2d5260.css.map",
-    "main.c4dd65cd.js.map": "https://nivalderramas.github.io/nivalderramas/static/js/main.c4dd65cd.js.map",
+    "main.061bacbe.js.map": "https://nivalderramas.github.io/nivalderramas/static/js/main.061bacbe.js.map",
     "787.685d50ad.chunk.js.map": "https://nivalderramas.github.io/nivalderramas/static/js/787.685d50ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab2d5260.css",
-    "static/js/main.c4dd65cd.js"
+    "static/js/main.061bacbe.js"
   ]
 }
