@@ -1,6 +1,7 @@
 {
   "name": "nivalderramas",
-  "homepage": "https://nivalderramas.github.io",
+  "homepage": "https://nivalderramas.github.io/",
+  "public_url": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
