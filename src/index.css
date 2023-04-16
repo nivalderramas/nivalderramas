@@ -10,3 +10,22 @@ section {
 body {
   background-color: #22252c;
 }
+.sectionTitle {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 0;
+  font-size: 23vw;
+  color: rgba(255, 255, 255, 0.04);
+  top: -25rem;
+  margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+  .sectionTitle {
+    text-align: center;
+    width: 100%;
+    top: -12rem;
+    font-size: 23vw;
+    color: rgba(255, 255, 255, 0.04);
+  }
+}

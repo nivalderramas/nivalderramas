@@ -1,12 +1,11 @@
 import React from "react";
 import { ProjectsList } from "./ProjectsList";
-import { Typography } from "@mui/material";
 import "./Projects.css";
 
 function Projects() {
   return (
-    <section className="projects">
-      <div className="workSectionTitle">Projects</div>
+    <section className="projects" style={{ maxWidth: "100%" }}>
+      <div className="sectionTitle">Projects</div>
       <div>
         <ProjectsList />
       </div>

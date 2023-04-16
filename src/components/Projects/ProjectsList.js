@@ -15,7 +15,7 @@ function ProjectsList() {
   return (
     <Container>
       <ImageList
-        sx={{ width: "100%", p: 5 }}
+        sx={{ width: "90%", p: 0 }}
         cols={3}
         rowHeight={"300"}
         gap={20}

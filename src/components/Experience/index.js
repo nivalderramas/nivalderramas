@@ -12,8 +12,8 @@ function Experience() {
   return (
     <>
       <section className="experience">
+        <div className="sectionTitle">Work</div>
         <Container>
-          <div className="experienceSectionTitle">Work</div>
           <Timeline position="alternate">
             <TimelineItem>
               <TimelineSeparator>

@@ -8,13 +8,14 @@ function About() {
     <>
       <section className="about">
         <Divider />
+        <div className="sectionTitle">About</div>
         <Container>
           <Grid container spacing={10} alignItems="center">
             <Grid
               item
               md={6}
               display="flex"
-              justifyContent="right"
+              justifyContent="center"
               order={{ xs: 2, md: 1 }}
             >
               <Image
@@ -39,7 +40,6 @@ function About() {
               order={{ xs: 1, md: 2 }}
               sx={{ textAlign: "justify" }}
             >
-              <div className="aboutSectionTitle">About</div>
               <Typography variant="h5">
                 I'm Nicolás Valderrama, a Systems Engineering student at the
                 National University of Colombia and a self-taught software
