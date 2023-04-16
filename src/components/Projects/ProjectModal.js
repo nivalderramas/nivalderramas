@@ -2,13 +2,14 @@ import React from "react";
 import { Chip, Button, Modal, Box, Typography, Grid } from "@mui/material";
 import Image from "mui-image";
 
+
 function ProjectModal({ selectedProject, setSelectedProject, itemData }) {
   const style = {
     position: "absolute",
     top: "50%",
     left: "50%",
-    width: "50%",
-    height: "50vh",
+    width: "90%",
+    height: "80vh",
     transform: "translate(-50%, -50%)",
     bgcolor: "background.paper",
     border: "2px solid #000",
@@ -29,13 +30,13 @@ function ProjectModal({ selectedProject, setSelectedProject, itemData }) {
         <Grid
           container
           spacing={0}
-          sx={{ p: 5, height: "100%", maxHeight: "100%" }}
+          sx={{ p: 2, height: "80%", maxHeight: "100%" }}
         >
-          <Grid xs={6} sx={{ position: "relative", maxHeight: "100%" }}>
-            <Typography gutterBottom variant="h5" component="div">
+          <Grid xs={12} md={6} sx={{ maxHeight: "100%", mb: { md: 0, xs: 2 } }}>
+            <Typography gutterBottom variant="h5" component="div" sx={{ mb: 2 }}>
               {data.title}
             </Typography>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
               {data.description}
             </Typography>
             {data.url && (
@@ -44,6 +45,7 @@ function ProjectModal({ selectedProject, setSelectedProject, itemData }) {
                 href={data.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                sx={{ mb: 2 }}
               >
                 Check it out
               </Button>
@@ -54,6 +56,7 @@ function ProjectModal({ selectedProject, setSelectedProject, itemData }) {
                 href={data.github}
                 target="_blank"
                 rel="noopener noreferrer"
+                sx={{ mb: 2 }}
               >
                 Repository
               </Button>
@@ -63,19 +66,19 @@ function ProjectModal({ selectedProject, setSelectedProject, itemData }) {
                 <Chip
                   label={tag}
                   variant="outlined"
-                  sx={{ margin: "0px 1px" }}
+                  sx={{ margin: "1px 1rem", mb: 1 }}
                 />
               ))}
             </div>
           </Grid>
-          <Grid xs={6} sx={{ maxHeight: "100%" }}>
+          <Grid xs={12} md={6} >
             <Image
               src={data.img}
               alt={data.title}
               id={data.title}
-              height="100%"
+              height="70%"
               width="100%"
-              fit="cover"
+              fit="fille"
               duration={300}
               easing="cubic-bezier(0.7, 0, 0.6, 1)"
               showLoading={false}
@@ -91,5 +94,4 @@ function ProjectModal({ selectedProject, setSelectedProject, itemData }) {
     </Modal>
   );
 }
-
 export { ProjectModal };
